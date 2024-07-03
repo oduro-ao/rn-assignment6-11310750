@@ -16,6 +16,7 @@ export default main_title = () => {
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.icon_container}
+
         >
           <Image
             style={styles.icons}
@@ -29,7 +30,7 @@ export default main_title = () => {
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 25,
+    paddingVertical: 26,
     flexDirection: "row",
     justifyContent: "space-between",
   },
