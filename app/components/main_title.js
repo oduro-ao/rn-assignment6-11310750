@@ -8,7 +8,6 @@ export default main_title = () => {
       <View style={styles.icon_container_main}>
         <TouchableOpacity
           style={styles.icon_container}
-          onPress={() => router.push("./components/CartScreen")}
         >
           <Image
             style={styles.icons}
@@ -17,7 +16,6 @@ export default main_title = () => {
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.icon_container}
-          onPress={() => router.push("./components/CartScreen")}
         >
           <Image
             style={styles.icons}
